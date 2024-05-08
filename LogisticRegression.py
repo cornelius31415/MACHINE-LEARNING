@@ -83,10 +83,10 @@ precision = metrics.precision_score(y_test, prediction)
 sensitivity = metrics.recall_score(y_test, prediction)
 f1_score = metrics.f1_score(y_test, prediction)
 
-print("The accuracy of the decision tree is: ", accuracy)
-print("The precision of the decision tree is: ", precision)
-print("The sensitivity of the decision tree is: ", sensitivity)
-print("The F1 Score of the decision tree is: ", f1_score)
+print("The accuracy of the logistic regression is: ", accuracy)
+print("The precision of the logistic regression is: ", precision)
+print("The sensitivity of the logistic regression is: ", sensitivity)
+print("The F1 Score of the logistic regression is: ", f1_score)
 
 
 
