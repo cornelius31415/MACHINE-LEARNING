@@ -37,4 +37,4 @@ log_regression.fit(X_train,y_train)
 prediction = log_regression.predict(X_test)
 accuracy = accuracy_score(y_test, prediction)
 
-print("Die Accuracy der Logistischen Regression ist: ", accuracy)
+print("The Logistic Regression Accuracy is: ", accuracy)
