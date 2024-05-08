@@ -6,10 +6,13 @@ Created on Wed May  8 08:44:17 2024
 @author: cornelius
 """
 
+# ---------------------------- IMPORTS ---------------------------------
+
+
 import pandas as pd
-from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
+from sklearn.tree import DecisionTreeClassifier
 
 
 
